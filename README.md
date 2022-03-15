@@ -1,14 +1,9 @@
-# CounterApp
+# ReactApp
 
-Esta es nuestra primera aplicación de React. Recuerden que si desean ejecutar esta aplicación, deben de reconstruir los módulos de node así:
+Esta aplicacion de React contiene:
 
-```
-npm install
-```
+- React JS
+- Javascript +ES6
+- Jest
 
-Y luego pueden correrlo así
-
-```
-npm start
-```
-
+En construccion...
