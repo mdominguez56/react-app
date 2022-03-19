@@ -1,4 +1,3 @@
-import "@testing-library/jest-dom";
 import { retornaArreglo } from "../../base-pruebas/07-deses-arr";
 
 describe("Pruebas en desestructuracion", () => {
