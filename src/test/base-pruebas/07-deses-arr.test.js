@@ -1,0 +1,16 @@
+import "@testing-library/jest-dom";
+import { retornaArreglo } from "../../base-pruebas/07-deses-arr";
+
+describe("Pruebas en desestructuracion", () => {
+  test("Evaluar que sea un string", () => {
+    const [letras, numeros] = retornaArreglo();
+    expect(letras).toBe("ABC");
+    expect(typeof letras).toBe("string");
+  });
+
+  test("Evaluar que sea un numero", () => {
+    const [letras, numeros] = retornaArreglo();
+    expect(numeros).toBe(123);
+    expect(typeof numeros).toBe("number");
+  });
+});
