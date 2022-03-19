@@ -17,5 +17,3 @@ describe("Pruebas en 02-template-strings", () => {
     expect(saludo).toBe("Hola Carlos");
   });
 });
-
-// Seguir en video 53 de curso
